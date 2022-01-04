@@ -1,5 +1,5 @@
-# ------------------------------------------------------------------------------
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
+# For documentation on these settings, see: https://github.com/alacritty/alacritty/blob/master/alacritty.yml
 
 # Import additional configuration files
 #
@@ -9,13 +9,8 @@
 #
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
-
-# For Windows
-# Create the file ~\AppData\Roaming\alacritty\alacritty.yml
-# and add
-# import:
-#   - ~\.config\alacritty\alacritty.yml
-# ------------------------------------------------------------------------------
+#import:
+#  - /path/to/alacritty.yml
 
 window:
   # Window dimensions (changes require restart)
