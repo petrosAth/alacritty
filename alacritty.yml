@@ -91,7 +91,7 @@ font:
   # Normal (roman) font face
   normal:
     # Font family
-    # family: "FiraCode Nerd Font" # Linux
+    family: "FiraCode Nerd Font" # Linux
     # family: "FiraCode NF" # Windows
 
     # The `style` can be specified to pick a specific face.
