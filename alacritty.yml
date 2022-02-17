@@ -11,7 +11,7 @@
 # to the user's home directory starting with `~/`.
 import:
   # To change color theme go to the end of the themes.yml and change the 'colors:' value
-  # - '~/.config/alacritty/themes.yml' # Linux
+  - '~/.config/alacritty/themes.yml' # Linux
   # - '~/dotfiles/alacritty/themes.yml' # Windows
 
 # Any items in the `env` entry below will be added as
@@ -61,7 +61,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  decorations: full
+  decorations: none
 
   # Background opacity
   #
@@ -78,7 +78,7 @@ window:
   #
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
-  startup_mode: Windowed
+  startup_mode: Maximized
 
   # Window title
   # title: Alacritty
