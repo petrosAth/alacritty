@@ -98,7 +98,7 @@ font:
     #style: Regular
 
   # Point size
-  size: 12.0
+  size: 12.5
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -120,16 +120,16 @@ font:
   # it is recommended to set `use_thin_strokes` to `false`.
   use_thin_strokes: false
 
-cursor:
+# cursor:
   # Cursor style
-  style:
+  # style:
     # Cursor shape
     #
     # Values for `shape`:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-    shape: Beam
+    # shape: Beam
 
     # Cursor blinking state
     #
@@ -138,7 +138,7 @@ cursor:
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
-    blinking: On
+    # blinking: On
 
   # Vi mode cursor style
   #
